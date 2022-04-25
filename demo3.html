@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo 3 - Radio Buttons</title>
+    </head>
+
+    <body>
+        <form name="burgerorder" data-order-form>
+            <div>Please select the type of burger you want</div>
+            <input type="radio" name="burgertype" value="cheese" id="cheese">
+            <label for="cheese">Cheese</label>
+            <input type="radio" name="burgertype" value="double" id="double">
+            <label for="double">Double</label>
+            <input type="radio" name="burgertype" value="doublecheese" id="doublecheese">
+            <label for="doublecheese">Double Cheese</label><br><br>
+            <input type="submit" value="I want my burger!">
+        </form>
+
+        <script>
+            // get handle to the form
+            // const form = document.querySelector('[name="burgerorder"]')
+            const form = document.querySelector('[data-order-form]')
+            // get handle to all radio buttons
+            const burger = document.querySelectorAll('[name="burgertype"]')
+
+            // We will code this in class together
+
+        </script>
+    </body>
+
+</html>
